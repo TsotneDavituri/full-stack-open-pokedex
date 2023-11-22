@@ -1,0 +1,7 @@
+For Java the Linting could be done with CheckStyle a tool that checks Java code against a set of coding standards. 
+Testing can be done by a testing framework called JUnit. 
+Building can be done by a automation tool called gradle.
+
+Alternatives to Jenkis would be Travis CI, TeamCity, Bamboo, GoCD there any many different alternatives some of which are self hosted and some of which are cloud services offered by providers.
+
+Whether the Setup would be better in a self-hosted or a cloud-based environment highly depends on the size and the scale of the project. In general its recommended to use the cloud-based environments for small to medium scale projects as it will be easier to configure and do the "normal" things with. As for self-hosted setups you might have to do more work to set it up initially, however whenever you need to scale your project up you can just upgrade the hardware of your server meaning that you are not restricted. Most cloud providers only offer a small amount of RAM and vCPUs meaning that your project might have to be migrated away from them when you reach those limits. Cloud based solutions often also cannot cover every special requirement that one might have, for example needing a GPU to run tests could be something thats not included in cloud based solution. In that case a self hosted solution might be the correct choice.
