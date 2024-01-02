@@ -16,12 +16,12 @@ jobs:
   date_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: Say hello
+      - name: Show current date
         run: |
           date
   current_directory_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: Say hello
+      - name: Show current directory
         run: |
           ls -l
