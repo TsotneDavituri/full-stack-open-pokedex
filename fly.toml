@@ -22,14 +22,14 @@ primary_region = "ams"
     grace_period = "10s"
     interval = "30s"
     method = "GET"
-    timeout = "5s"
+    timeout = "2s"
     path = "/version"
 
   [[http_service.checks]]
     grace_period = "10s"
     interval = "30s"
     method = "GET"
-    timeout = "5s"
+    timeout = "2s"
     path = "/health"
 
 [[vm]]
