@@ -1,4 +1,9 @@
 module.exports = {
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "env": {
     "browser": true,
     "es6": true,
@@ -47,11 +52,5 @@ module.exports = {
     ],
     "no-console": "error",
     "react/prop-types": 0,
-    "settings": {
-      "react": {
-        "version": "16.14.0"
-      }
-    }
-    
   }
 }
