@@ -57,9 +57,13 @@
     "axios": "^1.6.3",
     "caniuse-lite": "^1.0.30001572",
     "express": "^4.17.1",
+    "jest-environment-jsdom": "^29.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "webpack": "^4.43.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
