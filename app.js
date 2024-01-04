@@ -12,12 +12,10 @@ app.listen(PORT, () => {
 })
 
 app.get('/health', (req, res) => {
-  console.log('sending ok response')
   res.send('ok')
 })
 
 app.get('/version', (req, res) => {
-  console.log('sending version response')
   res.send('11')
 })
 

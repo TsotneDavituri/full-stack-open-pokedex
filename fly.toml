@@ -17,19 +17,18 @@ primary_region = "ams"
   auto_start_machines = true
   min_machines_running = 0
   processes = ["app"]
-
   [[http_service.checks]]
     grace_period = "10s"
     interval = "30s"
     method = "GET"
-    timeout = "2s"
+    timeout = "5s"
     path = "/version"
 
   [[http_service.checks]]
     grace_period = "10s"
     interval = "30s"
     method = "GET"
-    timeout = "2s"
+    timeout = "5s"
     path = "/health"
 
 [[vm]]
