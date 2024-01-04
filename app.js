@@ -12,10 +12,14 @@ app.listen(PORT, () => {
 })
 
 app.get('/health', (req, res) => {
+  // eslint-disable-next-line no-console
+  console.log('health check is running...')
   res.send('ok')
 })
 
 app.get('/version', (req, res) => {
+  // eslint-disable-next-line no-console
+  console.log('version check is running...')
   res.send('11')
 })
 
